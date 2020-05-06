@@ -1,26 +1,20 @@
 import axios from "axios";
 
 window.addEventListener("load", function () {
-  console.log("load123");
   document
     ?.getElementsByClassName("previous")[0]
     ?.addEventListener("click", () => {
-      console.log("previous");
       createInterval();
     });
   document?.getElementsByClassName("next")[0]?.addEventListener("click", () => {
-    console.log("next");
     createInterval();
   });
 
   let interval = setInterval(() => {
-    console.log(document.querySelectorAll(".nav-slide li").length);
     if (document.querySelectorAll(".nav-slide li").length > 0) {
       document.querySelectorAll(".nav-slide li").forEach((element, key) => {
         if (key !== 2) {
-          console.log(element);
           element.addEventListener("click", () => {
-            console.log("ll");
             createInterval();
           });
         }
