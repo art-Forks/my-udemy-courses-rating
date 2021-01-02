@@ -1,17 +1,22 @@
 ## Intro
 
-調整說明:
+使用方式:  
+請自行[Release頁面](https://github.com/art-Forks/my-udemy-courses-rating/releases)，下載本次修正的版本`v1.0.2`之後依照下方的Chrome安裝外掛說明使用
+
+調整說明:  
 
 1. 增加`評等數`, `註冊數`
 1. 刪除已經無效的註冊事件
 
-已知問題:
+已知問題:  
 
 1. 點連結後無法重新爬資訊，需要重新整理頁面
 1. 目前抓取資訊比對採用`regex`，未來可能遇到UI改版就掛掉
 
-備註:
+備註:  
 有興趣的自行取用抓去改
+
+
 
 ## [原作Github](https://github.com/0t2/my-udemy-courses-rating) 以下為原開發者 Readme.md
 
